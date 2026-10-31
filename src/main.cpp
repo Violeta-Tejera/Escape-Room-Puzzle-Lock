@@ -3,29 +3,35 @@
 #include "Buttons.h"
 #include "Buzzer.h"
 #include "Sequence.h"
-
-const int buttonPins[] = {2, 3, 4, 5, 6, 7, 8, 9};
-const int buzzerPin = 11;
+#include "Display.h"
 
 int value = 0;
+
+const uint8_t password[] = {CHAR_2, CHAR_1, CHAR_1, CHAR_0}; // Should you want to use your own password, input it here! :)
 
 void setup(){
   setupButtons();
   setupBuzzer();
   setupSequence();
+  setupDisplay();
 }
  
 void loop(){
+
   bool sequenceEnded = false;
   int buttonPressed = 0;
   
   while(!sequenceEnded){
     buttonPressed = readButtons();
 
-    if(buttonPressed != BUTTON_COUNT-1){
+    if(buttonPressed != buttonCount-1){
       playNote(buttonPressed);
     }
 
     sequenceEnded = checkSequence(buttonPressed);
   }
+
+  delay(1000);
+  displayPassword(password);
+  playBdayTune();
 }

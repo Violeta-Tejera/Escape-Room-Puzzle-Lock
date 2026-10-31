@@ -2,7 +2,7 @@
 
 #include <Arduino.h>
 
-const int BUTTON_COUNT = 8;
+const int buttonCount = 8;
 
 void setupButtons();
 int readButtons();
