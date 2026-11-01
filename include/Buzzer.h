@@ -1,11 +1,21 @@
+/**
+ * @file Buzzer.h
+ * @brief Buzzer utils
+ * 
+ * Provides with functions for initializing
+ * and working with the buzzer
+ */
+
 #pragma once
 
 #include <Arduino.h>
 
 const int delayTime = 500;
+
+/* The i-th note on the buttonpad is the i-th note on this array */
 const int notes[] = {440, 466, 262, 294, 330, 349, 392}; // A4, Bb4, C4, D4, E4, F4, G4
 
-
+/* These are the notes for the augmented Happy Bday melody that will be played when the puzzle is solved */
 const int melody[] = {
     392, 392, 440, 392, 523, 494,
     392, 392, 440, 392, 587, 523,
@@ -13,6 +23,7 @@ const int melody[] = {
     698, 698, 659, 523, 587, 523
 };
 
+/* These are the note durations for the augmented Happy Bday melody that will be played when the puzzle is solved*/
 const int durations[] = {
     250, 250, 500, 500, 500, 1000,
     250, 250, 500, 500, 500, 1000,
@@ -22,6 +33,31 @@ const int durations[] = {
 
 const int noteCount = sizeof(melody) / sizeof(melody[0]);
 
+/**
+ * @brief Setup function for the buzzer component
+ * 
+ * This functions sets the buzzer pin up as an output pin.
+ * It ought to be called in the setup() main.cpp function.
+ */
 void setupBuzzer();
+
+/**
+ * @brief Note player.
+ * 
+ * This function plays the note corresponding to the button pressed
+ * during delayTime milliseconds.
+ * 
+ * See notes[] for more info.
+ * 
+ * @param int identifying the key pressed.
+ */
 void playNote(int keyPressed);
+
+/**
+ * @brief Happy B-Day tune player
+ * 
+ * Plays an augmented version of the Happy B-Day tune
+ * played by the human player. In main.cpp, this tune
+ * will be played after the puzzle is completed.
+ */
 void playBdayTune();
