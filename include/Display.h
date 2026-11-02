@@ -1,3 +1,15 @@
+/**
+ * @file Display.h
+ * @brief Display utils
+ * 
+ * Provides you with macros and functions for
+ * initializing and working with the TM1637 display.
+ * 
+ * After the puzzle is solved, the player will receive
+ * a short message congratulating them and providing
+ * them with the lock password.
+ */
+
 #pragma once
 
 #include "TM1637Display.h"
@@ -46,6 +58,41 @@
 #define CHAR_8  (SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F | SEG_G)
 #define CHAR_9  (SEG_A | SEG_B | SEG_C | SEG_D | SEG_F | SEG_G)
 
+/**
+ * @brief Setup function for the display component.
+ * 
+ * This function sets the display brightness at 3 (it can be a
+ * value from 0 to 7: 0 being the lowest and 7 the highest) 
+ * and turns it on.
+ * 
+ * There's no need to set the pins as I/O manually because we
+ * are already instantiating a TM1637Display object.
+ * 
+ * It ought to be called in the setup() main.cpp function.
+ */
 void setupDisplay();
-//void printText(const uint8_t chars[], uint8_t length);
+
+/**
+ * @deprecated
+ * @brief Printer function for the display component.
+ * 
+ * This function prints a given string of up to 4 characters
+ * on the display. It's deprecated because in the end I don't
+ * use it on my project, but you can reuse it for yours if you
+ * want to.
+ * 
+ * @param Array of uint8_t chars 
+ * @param int with the string length
+ */
+void printText(const uint8_t chars[], uint8_t length);
+
+/**
+ * @brief Function that displays the puzzle password.
+ * 
+ * This function will be called in main.cpp when the player
+ * solves the puzzle, printing a short message and the lock
+ * password afterwards.
+ * 
+ * @param Array of uint8_t chars
+ */
 void displayPassword(const uint8_t password[]);

@@ -2,8 +2,10 @@
  * @file Buzzer.h
  * @brief Buzzer utils
  * 
- * Provides with functions for initializing
- * and working with the buzzer
+ * Provides you with constants and functions for 
+ * initializing and working with the buzzer.
+ * 
+ * @author https://github.com/Violeta-Tejera
  */
 
 #pragma once
@@ -34,10 +36,12 @@ const int durations[] = {
 const int noteCount = sizeof(melody) / sizeof(melody[0]);
 
 /**
- * @brief Setup function for the buzzer component
+ * @brief Setup function for the buzzer component.
  * 
  * This functions sets the buzzer pin up as an output pin.
  * It ought to be called in the setup() main.cpp function.
+ * 
+ * @author https://github.com/Violeta-Tejera
  */
 void setupBuzzer();
 
@@ -50,14 +54,18 @@ void setupBuzzer();
  * See notes[] for more info.
  * 
  * @param int identifying the key pressed.
+ * 
+ * @author https://github.com/Violeta-Tejera
  */
 void playNote(int keyPressed);
 
 /**
- * @brief Happy B-Day tune player
+ * @brief Happy B-Day tune player.
  * 
  * Plays an augmented version of the Happy B-Day tune
  * played by the human player. In main.cpp, this tune
  * will be played after the puzzle is completed.
+ * 
+ * @author https://github.com/Violeta-Tejera
  */
 void playBdayTune();

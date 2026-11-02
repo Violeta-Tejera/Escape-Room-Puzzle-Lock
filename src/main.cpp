@@ -1,3 +1,20 @@
+/**
+ * @file main.cpp
+ * @brief Main code
+ * 
+ * This game is part of a bigger escape room in organizing
+ * for the birthday present of my partner, and introducing 
+ * the correct sequence (which the player should deduce from
+ * other puzzles not present on this repo) will grant with the
+ * lock password for the last batch of presents.
+ * 
+ * If the correct sequence, that plays a basic version of the 
+ * Happy Birthday song is introduced, the device will return a
+ * message that includes the 4 digit lock password, and plays
+ * an improved Happy Birthday melody.
+ * 
+ * @author https://github.com/Violeta-Tejera
+ */
 
 #include <Arduino.h>
 #include "Buttons.h"

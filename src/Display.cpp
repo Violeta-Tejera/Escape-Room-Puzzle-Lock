@@ -5,10 +5,6 @@
 
 TM1637Display display(CLK_PIN, DIO_PIN);
 
-const uint8_t done[] = {
-    CHAR_D, CHAR_O, CHAR_N, CHAR_E
-};
-
 void setupDisplay() {
     display.setBrightness(3, true);
     display.clear();
