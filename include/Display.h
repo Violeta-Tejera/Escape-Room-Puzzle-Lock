@@ -73,13 +73,10 @@
 void setupDisplay();
 
 /**
- * @deprecated
  * @brief Printer function for the display component.
  * 
  * This function prints a given string of up to 4 characters
- * on the display. It's deprecated because in the end I don't
- * use it on my project, but you can reuse it for yours if you
- * want to.
+ * on the display. 
  * 
  * @param Array of uint8_t chars 
  * @param int with the string length
