@@ -1,5 +1,6 @@
 # Piano based Escape Room Lock
 
+**Faltaría poner fotos del dispositivo terminado, y los archivos .stl**
 
 ## Disclaimer
 The information displayed here is provided as is, you are using it at your own risk. Under no circumstances shall the author be liable for any kind of damages resulting from the use, misuse or inability to use of this code and information even though if the author had previously advised of the possibility of such damages.
