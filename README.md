@@ -141,7 +141,12 @@ Great news! [Display.h](https://github.com/Violeta-Tejera/Piano-Escape-Room-Lock
 
 This project is protected by the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
 
-### Usage Restrictions 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+### Extra Usage Restrictions 
 
 The use of this project's materials for training, fine-tuning or developing Artificial Intelligence (AI) and Machine Learning (ML) models is expressly prohibited without prior written permission from the original author.
 
