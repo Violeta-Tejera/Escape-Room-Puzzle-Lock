@@ -18,7 +18,7 @@ In previous not disclosed puzzles she will achieve the correct sequence to input
 
 Each button has assigned a musical note, and playing this sequence will reproduce a simple version of the Happy Birthday tune.
 
-[Wanna change the sequence? Check it out here!](#what-if-i-want-to-use-a-different-custom-sequence?)
+[Wanna change the sequence? Check it out here!](#what-if-i-want-to-use-a-different-custom-sequence)
 
 If the sequence is being introduced correctly, the red led will be lit. Any mistakes (or reset) will turn it off and the player shall start again to introduce it.
 
