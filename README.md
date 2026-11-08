@@ -11,7 +11,7 @@ The information displayed here is provided as it is, you are using it at your ow
 
 This purpose is part of a much bigger project that probably will not be published anywhere anytime soon, which is a Escape Room I have designed for my partner's birthday.
 
-In previous not disclosed puzzles she will achieve the correct sequence to input in this lock, which is:
+In previous not disclosed puzzles she will acquire the correct sequence to input in this lock, which is:
 
 ![Green](https://img.shields.io/badge/green-22C55E?style=flat-square) ![Green](https://img.shields.io/badge/green-22C55E?style=flat-square) ![Yellow](https://img.shields.io/badge/yellow-EAB308?style=flat-square) ![Green](https://img.shields.io/badge/green-22C55E?style=flat-square) ![Red](https://img.shields.io/badge/red-EF4444?style=flat-square) ![Orange](https://img.shields.io/badge/orange-F97316?style=flat-square) ![Green](https://img.shields.io/badge/green-22C55E?style=flat-square) ![Green](https://img.shields.io/badge/green-22C55E?style=flat-square)
 
