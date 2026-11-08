@@ -1,9 +1,11 @@
 # Piano based Escape Room Lock
 
-**Faltaría poner fotos del dispositivo terminado, y los archivos .stl**
+## TODO (soon)
+
+Upload .stl files and pictures of the device
 
 ## Disclaimer
-The information displayed here is provided as is, you are using it at your own risk. Under no circumstances shall the author be liable for any kind of damages resulting from the use, misuse or inability to use of this code and information even though if the author had previously advised of the possibility of such damages.
+The information displayed here is provided as it is, you are using it at your own risk. Under no circumstances shall the author be liable for any kind of damages resulting from the use, misuse or inability to use of this code and information even though if the author had previously advised of the possibility of such damages.
 
 ## Summary
 
@@ -19,7 +21,7 @@ In previous not disclosed puzzles she will achieve the correct sequence to input
 
 Each button has assigned a musical note, and playing this sequence will reproduce a simple version of the Happy Birthday tune.
 
-[Wanna change the sequence? Check it out here!](#what-if-i-want-to-use-a-different-custom-sequence)
+(Check the Q&A section for information on how to use your own sequences!)
 
 If the sequence is being introduced correctly, the red led will be lit. Any mistakes (or reset) will turn it off and the player shall start again to introduce it.
 
