@@ -1,9 +1,5 @@
 # Piano based Escape Room Lock
 
-## TODO (soon)
-
-Upload .stl files and pictures of the device
-
 ## Disclaimer
 The information displayed here is provided as it is, you are using it at your own risk. Under no circumstances shall the author be liable for any kind of damages resulting from the use, misuse or inability to use of this code and information even though if the author had previously advised of the possibility of such damages.
 
@@ -26,6 +22,10 @@ Each button has assigned a musical note, and playing this sequence will reproduc
 If the sequence is being introduced correctly, the red led will be lit. Any mistakes (or reset) will turn it off and the player shall start again to introduce it.
 
 When the correct sequence is finally introduced, the 4 digit display will show a congratulating message before showing the 4 digit password (that unlocks a 4 digit lock in my game) and playing an enhanced version of the Happy Birthday song.
+
+<p align="center">
+<img width="550" src="https://github.com/Violeta-Tejera/Piano-Escape-Room-Lock/blob/main/img/device.jpeg">
+</p>
 
 ## Components
 
